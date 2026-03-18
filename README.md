@@ -10,24 +10,31 @@ This document proposes a reflection around a conceptual process aimed at reducin
 1. Definition of the problem
 
 1.1 General context
+
 The exchange of physical goods at a distance is today largely facilitated by digital networks. However, when two parties do not know each other and are not present at the same time, these exchanges still rely largely on mechanisms of human trust, intermediation, or centralized institutions.
 
 1.2 Asynchronism as the main source of risk
+
 The fundamental problem appears when the exchange is not simultaneous. The buyer and the seller interact neither in the same place nor at the same moment. This absence of simultaneity creates an asymmetry of risk that cannot be eliminated by a simple agreement between the parties. Asynchronism transforms a simple exchange into a problem of coordination and trust.
 
 1.3 Risk perceived by the seller
+
 From the seller’s point of view, the main risk is to relinquish a physical good without a certain guarantee of receiving the corresponding payment. Once the object is shipped, the seller loses all control over it. In the absence of irreversible payment or a guarantee mechanism, the seller is exposed to a definitive loss.
 
 1.4 Risk perceived by the buyer
+
 From the buyer’s point of view, the risks are multiple. The first is to never receive the object after having made the payment. The second is to receive an object that does not correspond to the expected description. Finally, even in the case of effective reception, the buyer may fear that the object is defective, unusable, or altered, without having an immediate and objective means to prove it.
 
 1.5 Limits of current solutions
+
 The solutions currently used rely either on centralized institutions, or on platforms playing the role of a trusted intermediary. These approaches may reduce certain risks, but introduce other constraints: dependence on a third party, loss of anonymity, arbitrary procedures, delays, or asymmetry of power.
 
 1.6 Boundary between the digital world and the physical world
+
 The core of the problem lies in the difficulty of making the digital world and the physical world interact reliably. A payment can be verified cryptographically, but a physical object cannot be entirely digitized nor guaranteed by purely mathematical proof. There is no perfect cryptographic proof of the state of a physical object.
 
 1.7 Framework and intention of the proposed process
+
 The process described in the following sections does not claim to resolve all these issues. Its objective is more modest: to reduce certain asymmetries of risk during asynchronous physical exchanges, relying on observable physical data and on cryptographic mechanisms, while preserving the anonymity of the parties.
 This process must be understood as a line of reflection and not as a definitive solution.
 
