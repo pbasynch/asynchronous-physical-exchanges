@@ -172,7 +172,7 @@ Layer A corresponds to the monetary settlement layer. It relies on a truly decen
 
 Layer B corresponds to a distributed cryptographic infrastructure responsible for the coordination of physical states. It is linked to physical lockers and allows the recording, broadcasting and comparison of observable physical characteristics associated with exchanged objects. This layer manages no transfer of monetary value and does not interpret the nature of exchanges; it is limited to state management and the attestation of observable material facts.
 
-this separation aims to avoid any confusion between cryptographic proof and material reality. Layer A guarantees economic irreversibility, while Layer B provides a coordination framework allowing physical events to be linked to cryptographic commitments without introducing an arbitral third party.
+This separation aims to avoid any confusion between cryptographic proof and material reality. Layer A guarantees economic irreversibility, while Layer B provides a coordination framework allowing physical events to be linked to cryptographic commitments without introducing an arbitral third party.
 
 4.2 Settlement layer: economic commitments and irreversible payments
 
@@ -198,6 +198,7 @@ The simple passage of time releases the time lock, making the transaction execut
 Case of physical non‑conformity:
 
 Upon arrival, the reception locker performs a new acquisition of observable physical characteristics of the object. These data are compared to the characteristics recorded during the initial deposit and explicitly validated by the buyer at that moment.
+
 It is fundamental to emphasize that:
 
 • the locker does not decide the conformity of the object
@@ -218,9 +219,10 @@ In this case, no direct signal is sent to the settlement blockchain. Since the o
 Case of success and cancellation of the time lock:
 
 In the case of conformity, the object is accepted by the reception locker based on the data validated ex ante by the buyer. This acceptance results in the revelation of a cryptographic secret previously committed, allowing the cryptographic condition that invalidates the penalizing branch of the conditional transaction engaged by logistics to be satisfied.
+
 This mechanism relies on classical hashlock / timelock constructions:
 
--the revelation of the secret prevents execution of the reimbursement
+• the revelation of the secret prevents execution of the reimbursement
 
 • the economic commitment of logistics is then considered fulfilled
 
@@ -239,6 +241,7 @@ Thus the process does not rely on a trusted third party, but on:
 
 Layer B constitutes a distributed cryptographic infrastructure responsible for representing, recording and comparing observable physical states associated with material objects. It does not constitute a monetary blockchain but a registry of verifiable physical states whose function is to coordinate interactions between the material world and the cryptographic system.
 Its role is not to issue judgments nor to take arbitrary decisions, but only to observe, record and compare measured observations.
+
 The Layer B registry is of the append‑only type:
 data can be added to it but never modified or deleted.
 
