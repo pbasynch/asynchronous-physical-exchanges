@@ -1,7 +1,12 @@
                                           Asynchronous Physical Exchanges
 				                          p.b/Bitcoin.Talk.org/08mars2026
 				                                   Introduction
+## Visual Representation 
+![Part1](PAE.PNG)
 
+![Part2](PAEPART2.PNG)
+
+![Part3](PAEPART3.PNG)
 
 Today, technologies based on blockchain make it possible to carry out digital exchanges without a trusted third party, relying on cryptography and decentralized systems such as Bitcoin.
 However, as soon as an exchange involves a physical good, trust becomes necessary again because the digital world and the material world cannot be directly merged.
